@@ -1,0 +1,20 @@
+.header_main{
+    min-height: 700px;
+	position: relative; 
+    background-image: url('../../images/minimal.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.type_font{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 500px;
+    font-size: 40px;
+}
+@media screen and (max-width: 480px) {
+	.type_font {
+	margin-top: 20px;
+    margin-left: 40px;
+	}
+}
